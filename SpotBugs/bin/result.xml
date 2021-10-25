@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="0" timestamp="1634447433000" analysisTimestamp="1634447501432" release="">
+  <Project projectName="">
+    <Jar>BooleanReturnsNull.class</Jar>
+  </Project>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="77ff10a291a4ba48e347ba07b369a55" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</ShortMessage>
+    <LongMessage>BooleanReturnsNull.never_null(int) invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="never_null" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="40" end="43" startBytecode="0" endBytecode="63" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.never_null(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="41" end="41" startBytecode="10" endBytecode="10" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 41]</Message>
+    </SourceLine>
+    <SourceLine classname="BooleanReturnsNull" start="43" end="43" startBytecode="19" endBytecode="19" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at BooleanReturnsNull.java:[line 43]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="f1104ff3f6b67301b0c63e6b9029d989" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null(int) invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="8" end="13" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="9" end="9" startBytecode="10" endBytecode="10" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 9]</Message>
+    </SourceLine>
+    <SourceLine classname="BooleanReturnsNull" start="11" end="11" startBytecode="24" endBytecode="24" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at BooleanReturnsNull.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="db73ea8905a318281941068780b8c99a" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null_as_specified_with_checkfornull(int) invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null_as_specified_with_checkfornull" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="29" end="34" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null_as_specified_with_checkfornull(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="30" end="30" startBytecode="10" endBytecode="10" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 30]</Message>
+    </SourceLine>
+    <SourceLine classname="BooleanReturnsNull" start="32" end="32" startBytecode="24" endBytecode="24" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at BooleanReturnsNull.java:[line 32]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="f46a830e8c74a27dc6f3ada3f2ecdf2b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null_as_specified_with_nullable(int) invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null_as_specified_with_nullable" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="19" end="24" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null_as_specified_with_nullable(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="20" end="20" startBytecode="10" endBytecode="10" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 20]</Message>
+    </SourceLine>
+    <SourceLine classname="BooleanReturnsNull" start="22" end="22" startBytecode="24" endBytecode="24" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at BooleanReturnsNull.java:[line 22]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NP_BOOLEAN_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" instanceHash="27c5fecbbf1621469e724659bb9c65f7" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Method with Boolean return type returns explicit null</ShortMessage>
+    <LongMessage>BooleanReturnsNull.always_null() has Boolean return type and returns explicit null</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="always_null" signature="()Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="4" end="4" startBytecode="0" endBytecode="25" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.always_null()</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="4" end="4" startBytecode="1" endBytecode="1" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 4]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NP_BOOLEAN_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" instanceHash="d0c546241a9ff60405584c3542d4dc22" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Method with Boolean return type returns explicit null</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null(int) has Boolean return type and returns explicit null</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="8" end="13" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="13" end="13" startBytecode="29" endBytecode="29" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 13]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NP_BOOLEAN_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" instanceHash="ff53eb36efa5966ca668d6febecb3eeb" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Method with Boolean return type returns explicit null</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null_as_specified_with_checkfornull(int) has Boolean return type and returns explicit null</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null_as_specified_with_checkfornull" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="29" end="34" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null_as_specified_with_checkfornull(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="34" end="34" startBytecode="29" endBytecode="29" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 34]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NP_BOOLEAN_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" instanceHash="8b8820f1b2bd34667c22605515633783" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Method with Boolean return type returns explicit null</ShortMessage>
+    <LongMessage>BooleanReturnsNull.sometimes_null_as_specified_with_nullable(int) has Boolean return type and returns explicit null</LongMessage>
+    <Class classname="BooleanReturnsNull" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="1" end="49" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+        <Message>At BooleanReturnsNull.java:[lines 1-49]</Message>
+      </SourceLine>
+      <Message>In class BooleanReturnsNull</Message>
+    </Class>
+    <Method classname="BooleanReturnsNull" name="sometimes_null_as_specified_with_nullable" signature="(I)Ljava/lang/Boolean;" isStatic="false" primary="true">
+      <SourceLine classname="BooleanReturnsNull" start="19" end="24" startBytecode="0" endBytecode="79" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java"/>
+      <Message>In method BooleanReturnsNull.sometimes_null_as_specified_with_nullable(int)</Message>
+    </Method>
+    <SourceLine classname="BooleanReturnsNull" primary="true" start="24" end="24" startBytecode="29" endBytecode="29" sourcefile="BooleanReturnsNull.java" sourcepath="BooleanReturnsNull.java">
+      <Message>At BooleanReturnsNull.java:[line 24]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="DM_BOOLEAN_CTOR" abbrev="Dm" category="PERFORMANCE">
+    <ShortDescription>Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Creating new instances of <code>java.lang.Boolean</code> wastes
+  memory, since <code>Boolean</code> objects are immutable and there are
+  only two useful values of this type.&nbsp; Use the <code>Boolean.valueOf()</code>
+  method (or Java 1.5 autoboxing) to create <code>Boolean</code> objects instead.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="NP_BOOLEAN_RETURN_NULL" abbrev="NP" category="BAD_PRACTICE">
+    <ShortDescription>Method with Boolean return type returns explicit null</ShortDescription>
+    <Details><![CDATA[
+       
+       <p>
+    A method that returns either Boolean.TRUE, Boolean.FALSE or null is an accident waiting to happen.
+    This method can be invoked as though it returned a value of type boolean, and
+    the compiler will insert automatic unboxing of the Boolean value. If a null value is returned,
+    this will result in a NullPointerException.
+       </p>
+       
+       ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="NP" cweid="476">
+    <Description>Null pointer dereference</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 17 Oct 2021 13:10:33 +0800" total_classes="1" referenced_classes="10" total_bugs="8" total_size="29" num_packages="1" java_version="1.8.0_171" vm_version="25.171-b11" cpu_seconds="3.40" clock_seconds="0.76" peak_mbytes="258.02" alloc_mbytes="683.00" gc_seconds="0.06" priority_2="8">
+    <FileStats path="BooleanReturnsNull.java" bugCount="8" size="29" bugHash="5e57bde012a8af8361fadd2828270f4b"/>
+    <PackageStats package="" total_bugs="8" total_types="1" total_size="29" priority_2="8">
+      <ClassStats class="BooleanReturnsNull" sourceFile="BooleanReturnsNull.java" interface="false" size="29" bugs="8" priority_2="8"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="126" invocations="288" avgMicrosecondsPerInvocation="438" maxMicrosecondsPerInvocation="10219" standardDeviationMicrosecondsPerInvocation="1001"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="76" invocations="7" avgMicrosecondsPerInvocation="10870" maxMicrosecondsPerInvocation="75385" standardDeviationMicrosecondsPerInvocation="26338"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="35" invocations="255" avgMicrosecondsPerInvocation="138" maxMicrosecondsPerInvocation="10380" standardDeviationMicrosecondsPerInvocation="666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="31" invocations="10" avgMicrosecondsPerInvocation="3133" maxMicrosecondsPerInvocation="11137" standardDeviationMicrosecondsPerInvocation="4135"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="21" invocations="40" avgMicrosecondsPerInvocation="539" maxMicrosecondsPerInvocation="3495" standardDeviationMicrosecondsPerInvocation="667"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="19" invocations="10" avgMicrosecondsPerInvocation="1971" maxMicrosecondsPerInvocation="9769" standardDeviationMicrosecondsPerInvocation="2843"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="16" invocations="22" avgMicrosecondsPerInvocation="746" maxMicrosecondsPerInvocation="10723" standardDeviationMicrosecondsPerInvocation="2235"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="13" invocations="10" avgMicrosecondsPerInvocation="1332" maxMicrosecondsPerInvocation="6527" standardDeviationMicrosecondsPerInvocation="1945"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="12" invocations="289" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="427" standardDeviationMicrosecondsPerInvocation="58"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="11" invocations="10" avgMicrosecondsPerInvocation="1199" maxMicrosecondsPerInvocation="7248" standardDeviationMicrosecondsPerInvocation="2113"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="11" invocations="10" avgMicrosecondsPerInvocation="1101" maxMicrosecondsPerInvocation="3950" standardDeviationMicrosecondsPerInvocation="1446"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
