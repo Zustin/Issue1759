@@ -9,4 +9,9 @@ public class MiniCase {
         return res;
     }
 
+    public static void main(String[] args) {
+        MiniCase caser = new MiniCase();
+        caser.flaw();
+    }
+
 }
